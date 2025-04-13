@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Leader exam 1 april</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="design">
+
+  </div>
+
+  <div id="main">
+    <div id="images">
+      <div id="card1">
+        <div id="card1-main">
+          <img src="images/card-logo.svg" style="width: 100px; margin-left: 20px; margin-top: 20px;">
+          <div id="card1-div">
+            <h1>0000 0000 0000 0000</h1><br>
+            <section id="main-p"> 
+              <p>JANE APPLESEED</p>
+              <p>00/00</p>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div id="card2">
+
+      </div>
+    </div>
+    <div id="form">
+      <form id="form1">
+        <label for="name">CARDHOLDER NAME</label>
+        <input type="text" placeholder="e.g. Jane Applesed" id="name" required><br><br>
+        <label for="num">CARD NUMBER</label>
+        <input type="text" placeholder="e.g. 1234 5678 9123 0000" id="num" required><br><br>
+        <section id="oneline">
+          <article>
+            <label for="year">EXP.DATE (MM/YY)</label><br>
+            <input type="date" id="year" required><br><br>
+          </article>
+          <article>
+            <label for="cvc">CVC</label><br>
+            <input type="number" id="cvc"  placeholder="e.g. 123" maxlength="3">
+          </article>
+        </section>
+        <button type="submit" id="submit">Confirm</button>
+      </form>
+      <div id="submited"> 
+        <img src="images/icon-complete.svg">
+        <h1>THANK YOU!</h1>
+        <p>We've added your card details.</p><br>
+        <button type="submit" id="submit" class="button" style="width: 500px;">Continue</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
